@@ -17,6 +17,7 @@ class Programm(QMainWindow, Ui_Form):
         Ui_Form.setupUi(self, self)
         
     def gethtmgjl(self, link:str = ""):
+        print(link)
         link = link.toString()
         if link.startswith("https"):
             

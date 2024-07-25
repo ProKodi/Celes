@@ -15,7 +15,7 @@ class Ui_Form(object):
         Form.resize(1109, 666)
         self.textBrowser = QtWidgets.QTextBrowser(parent=Form)
         self.textBrowser.setGeometry(QtCore.QRect(0, 20, 1071, 521))
-        #self.textBrowser.setOpenExternalLinks(True)
+        self.textBrowser.setOpenExternalLinks(True)
         self.textBrowser.setOpenLinks(False)
         self.textBrowser.setObjectName("textBrowser")
 
@@ -35,6 +35,6 @@ class Ui_Form(object):
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:18pt;\">Текст </span></p>\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:18pt; color:#000096;\">Заголовок </span></p>\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:18pt; color:#0000ff;\">Подзаголовок </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a href=\"Термин\"><span style=\" font-size:18pt; text-decoration: underline; color:#6b6b00;\">Термин</span></a></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a href=\"term Термин\"><span style=\" font-size:18pt; text-decoration: underline; color:#6b6b00;\">Термин</span></a></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\"><span style=\" font-size:18pt; text-decoration: underline; color:#0e9fd1;\">Ссылка</span></a></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\":/my/03f066d7a4c911eeae89da31b0f942fa_upscaled.jpg\" /></p></body></html>"))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><a href=\"imaige 03f066d7a4c911eeae89da31b0f942fa_upscaled.jpg\"><img src=\":/my/03f066d7a4c911eeae89da31b0f942fa_upscaled.jpg\" /></a></p></body></html>"))
