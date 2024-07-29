@@ -1,0 +1,7 @@
+{
+    "name_course": "Test_cour",
+    "ico_course": "ico_test.png",
+    "inform_to_couse":{
+        "test_name_topic_1": "res\\tem1.html"
+    }
+}

@@ -1,0 +1,54 @@
+<!-- Что-то техническое-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html>
+    <head>
+        <meta name="qrichtext" content="1" />
+        <style type="text/css"> 
+            p, li { white-space: pre-wrap; } 
+        </style>
+    </head> 
+    <!-- То что используется при форматировании виджета-->
+    <body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;"> // Параметры виджета (задается в qt designer)
+        // Блок текста (После каждого блока автоматически ставится \n)
+        // <p Параметры отображения текста на виджете> </p>
+        // для align:
+            // "left" - выравнивание текста по левому краю (по умолчанию)
+            // "center" - выравнивание текста по центру
+            // "right" - выравнивание текста по правому краю
+            // "justify" - выравнивание текста по ширине 
+        // для align:
+            // margin-top:"количество пикселей"px - отступ под строкой текста 
+            // margin-bottom:"количество пикселей"px - отступ над строкой текста 
+            // margin-left:"количество пикселей"px - отступ в лево 
+            // margin-right:"количество пикселей"px - отступ в право
+            // -qt-block-indent:0 - не трогать
+            // text-indent:0px - не трогать
+        <p align="left" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">
+            // <span Параметры отображения тект
+            са> Текст который хотим отобразить</span>
+            // для style:
+                // font-family:'Название шрифта' - устанавливает шрифт для текста (перекрывает шрифт виджета)
+                // font-size:"количество пикселей"pt - устанавливает размер шрифта
+                // color:"цвет в формате html hex"
+                // font-style:normal - убирает у текста курсив (конфликтует с параметром font-style:italic)
+                // font-weight:600 - добавляет ожирение тексту (600 - жирный, 0 - худой)
+                // font-style:italic - делает курсив
+                // text-decoration: underline - добавляет нижнее подчеркивание 
+            <span style="font-family:'MS Shell Dlg 2'; font-size:12pt; font-weight:600; color:#00007f;">текст 1</span>
+            <span style="font-family:'MS Shell Dlg 2'; font-size:12pt; font-style:italic; color:#000000;">текст 2</span>
+            // текст 1текст 2 будет написано слитно (так как находится в одном блоке). 
+            // Для написания через \n необходимо создать новый блок <p></p>
+        </p>
+    </body>
+</html>
+
+
+/*
+<body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;"> // Параметры виджета (задается в qt designer)
+    <p align="left" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">
+        <span style="font-family:'MS Shell Dlg 2'; font-size:12pt; font-weight:600; color:#00007f;">текст 1</span>
+        <span style="font-family:'MS Shell Dlg 2'; font-size:12pt; font-style:italic; color:#000000;">текст 2</span>
+    </p>
+</body>
+
+*/

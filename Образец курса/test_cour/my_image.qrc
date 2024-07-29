@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="название темы1">
+    <file>название файла1</file>
+    <file>название файла2</file>
+  </qresource>
+  <qresource prefix="название темы2">
+    <file>название файла1</file>
+  </qresource>
+</RCC>
